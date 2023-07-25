@@ -17,6 +17,7 @@ const MiaFeedBack = () => {
   const [remarkValue, setRemarkValue] = useState("");
   const [loading, setLoading] = useState(false);
 
+  console.log("user details===>", userDetails);
   console.log("soldValue==>", soldValue);
   console.log("notSoldValue==>", notSoldValue);
   console.log("remarkValue==>", remarkValue);
@@ -152,7 +153,7 @@ const MiaFeedBack = () => {
                     </div>
                   </div>
                 </div>
-                {/* IMAGE ANF TABLE */}
+                {/* IMAGE AND TABLE */}
                 <div className="row g-3 p-2">
                   <div className="col-md-2">
                     <img
